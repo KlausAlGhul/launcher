@@ -1,0 +1,93 @@
+{
+  "update": [
+    "servers.dat"
+  ],
+  "updateExclusions": ["mods/mod_SportsIDs.properties", "mods/mod_Sports.properties"],
+  "updateShared": [],
+  "updateVerify": [
+    "libraries",
+    "natives",
+    "mods",
+    "minecraft.jar",
+    "forge.jar",
+    "liteloader.jar"
+  ],
+  "updateOptional": [],
+  "jvmArgs": [
+    "-Dfml.ignorePatchDiscrepancies\u003dtrue",
+    "-Dfml.ignoreInvalidMinecraftCertificates\u003dtrue",
+    "-XX:+UseConcMarkSweepGC",
+    "-XX:+CMSIncrementalMode",
+    "-XX:-UseAdaptiveSizePolicy",
+    "-Xmn128M",
+    "-XX:+DisableAttachMechanism",
+    "-Dsun.java2d.noddraw=true",
+    "-Dsun.java2d.d3d=false",
+    "-Dsun.java2d.opengl=false",
+    "-Dsun.java2d.pmoffscreen=false",
+    "-Dorg.lwjgl.opengl.Display.allowSoftwareOpenGL=true",
+    "-XX:+UseFastAccessorMethods",
+    "-XX:SoftRefLRUPolicyMSPerMB=1",
+    "-Dfml.ignorePatchDiscrepancies=true",
+    "-XX:CICompilerCount=3",
+    "-XX:+HeapDumpOnOutOfMemoryError",
+    "-XX:-TieredCompilation",
+    "-XX:+UseCompressedOops",
+    "-XX:+UseNUMA",
+    "-XX:+DoEscapeAnalysis",
+    "-XX:+EliminateLocks",
+    "-XX:UseSSE=4",
+    "-XX:AllocatePrefetchStyle=1",
+    "-XX:InitiatingHeapOccupancyPercent=50",
+    "-XX:+RewriteFrequentPairs",
+    "-XX:+AggressiveOpts", 
+    "-XX:+UseStringCache", 
+    "-Dsun.rmi.dgc.server.gcInterval\u003d2147483646", 
+    "-XX:+UnlockExperimentalVMOptions", "-XX:G1NewSizePercent=20", 
+    "-XX:G1ReservePercent=20", 
+    "-XX:MaxGCPauseMillis=50", 
+    "-XX:G1HeapRegionSize=32M", 
+    "-XX:+CMSIncrementalMode"
+  ],
+  "classPath": [
+    "forge.jar",
+    "liteloader.jar",
+    "minecraft.jar",
+    "libraries"
+  ],
+  "altClassPath": [],
+  "clientArgs": [
+    "--tweakClass",
+    "cpw.mods.fml.common.launcher.FMLTweaker",
+    "--tweakClass",
+    "com.mumfrey.liteloader.launch.LiteLoaderTweaker"
+  ],
+  "securityManagerConfig": "CLIENT",
+  "classLoaderConfig": "LAUNCHER",
+  "signedClientConfig": "NONE",
+  "version": "1.7.10",
+  "assetIndex": "1.7.10",
+  "dir": "Minecraft",
+  "assetDir": "asset1.7.10",
+  "recommendJavaVersion": 8,
+  "minJavaVersion": 8,
+  "maxJavaVersion": 17,
+  "warnMissJavaVersion": true,
+  "sortIndex": 0,
+  "uuid": "f71cb3a1-f709-41f1-b218-04ab9a7999bd",
+  "title": "Minecraft Football",
+  "info": "Информация о сервере",
+  "serverPort": 0,
+  "updateFastCheck": true,
+  "mainClass": "net.minecraft.launchwrapper.Launch",
+  "compatClasses": [],
+  "properties": {},
+  "servers": [
+    {
+      "name": "Minecraft Football",
+      "serverAddress": "m7.joinserver.ru",
+      "serverPort": 25854,
+      "isDefault": true
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+java -Xmx256M -javaagent:LaunchServer.jar -jar LaunchServer.jar

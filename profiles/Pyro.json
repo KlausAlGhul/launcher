@@ -1,0 +1,82 @@
+{
+  "update": [
+    "servers.dat"
+  ],
+  "updateExclusions": [],
+  "updateShared": [],
+  "updateVerify": [
+    "libraries",
+    "natives",
+    "mods",
+    "minecraft.jar",
+    "forge.jar"
+  ],
+  "updateOptional": [],
+  "jvmArgs": [
+    "-Dsun.java2d.noddraw=true",
+		"-Dsun.java2d.d3d=false",
+		"-Dsun.java2d.opengl=false",
+		"-Dsun.java2d.pmoffscreen=false",
+		"-XX:+AggressiveOpts",
+		"-XX:+UseStringCache",
+		"-Dorg.lwjgl.opengl.Display.allowSoftwareOpenGL=true",
+		"-XX:+UseFastAccessorMethods",
+		"-XX:SoftRefLRUPolicyMSPerMB=1",
+		"-XX:-UseAdaptiveSizePolicy",
+		"-Dfml.ignorePatchDiscrepancies=true",
+		"-Dfml.ignoreInvalidMinecraftCertificates=true",
+		"-XX:+UseConcMarkSweepGC",
+		"-Xmn128M",
+		"-XX:+DisableAttachMechanism",
+		"-XX:CICompilerCount=3",
+		"-XX:+HeapDumpOnOutOfMemoryError",
+		"-XX:-TieredCompilation",
+		"-XX:+UnlockExperimentalVMOptions",
+		"-XX:+UseCompressedOops",
+		"-XX:+UseNUMA",
+		"-XX:+DoEscapeAnalysis",
+		"-XX:+EliminateLocks",
+		"-XX:UseSSE=4",
+		"-XX:AllocatePrefetchStyle=1",
+		"-XX:InitiatingHeapOccupancyPercent=50",
+		"-XX:+RewriteFrequentPairs"
+    ],
+  "classPath": [
+    "forge.jar",
+    "minecraft.jar",
+    "libraries"
+  ],
+  "altClassPath": [],
+  "clientArgs": [
+    "--tweakClass",
+    "net.minecraftforge.fml.common.launcher.FMLTweaker"
+  ],
+  "securityManagerConfig": "CLIENT",
+  "classLoaderConfig": "LAUNCHER",
+  "signedClientConfig": "NONE",
+  "version": "1.12.2",
+  "assetIndex": "1.12.2",
+  "dir": "Pyro",
+  "assetDir": "asset1.12",
+  "recommendJavaVersion": 8,
+  "minJavaVersion": 8,
+  "maxJavaVersion": 17,
+  "warnMissJavaVersion": true,
+  "sortIndex": 0,
+  "uuid": "005e5bc3-fed3-4f26-bd53-77ee4b5b6d0b",
+  "title": "Pyro",
+  "info": "Информация о сервере",
+  "serverPort": 0,
+  "updateFastCheck": true,
+  "mainClass": "net.minecraft.launchwrapper.Launch",
+  "compatClasses": [],
+  "properties": {},
+  "servers": [
+    {
+      "name": "Pyro",
+      "serverAddress": "51.75.45.87",
+      "serverPort": 27876,
+      "isDefault": true
+    }
+  ]
+}
